@@ -26,6 +26,7 @@ A responsive Movie Explorer web application built with React.js and TVMaze API. 
 
 ## ▶️ Run Locally
 
+```bash
 npm run dev
 ```
 
@@ -46,4 +47,4 @@ Open the local URL shown in the terminal to use the application.
 
 **Shakil Mahmud**
 
-[GitHub](https://github.com/shakilmahmud14/movie-explorer)
+[View GitHub Repository](https://github.com/shakilmahmud14/movie-explorer)
