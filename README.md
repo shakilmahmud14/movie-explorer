@@ -1,16 +1,51 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Movie Explorer web application built with React.js and TVMaze API. Users can browse shows, search by title, and view detailed information.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse TV shows
+- Search shows by title
+- View show details
+- Responsive design
+- TVMaze API integration
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- TVMaze API
 
-## Expanding the Oxlint configuration
+## 📡 API Endpoints
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Browse all shows: `GET https://api.tvmaze.com/shows`
+- Search shows: `GET https://api.tvmaze.com/search/shows?q=:query`
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL shown in the terminal to use the application.
+
+## 📋 Assignment Scope
+
+- Responsive home page with navigation and footer
+- Searchable show listing with reusable cards
+- Detailed show information in a modal
+- Mobile-friendly single-column layout and desktop grid layout
+
+## 🔗 Live Demo
+
+[View Live Project](https://swmovie-explorer.netlify.app/)
+
+## 👨‍💻 Author
+
+**Shakil Mahmud**
+
+[GitHub](https://github.com/shakilmahmud14/movie-explorer)
