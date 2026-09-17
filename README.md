@@ -26,8 +26,6 @@ A responsive Movie Explorer web application built with React.js and TVMaze API. 
 
 ## ▶️ Run Locally
 
-```bash
-npm install
 npm run dev
 ```
 
